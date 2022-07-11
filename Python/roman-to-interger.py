@@ -41,3 +41,10 @@ class Solution:
 # test = 'asd'
 # print(test[1])
 # print(test, type(test[0]))
+
+'''
+1. hashmap is a better choice
+2. str can directly use index :
+    s = 'qwer'
+    s[0] -> 'q'
+'''
