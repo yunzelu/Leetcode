@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        RemoveElement re = new RemoveElement();
-        int k = re.removeElement(new int[] {0,1,2,2,3,0,4,2}, 2);
+        MajorityElement test = new MajorityElement();
+        int k = test.majorityElementOthers(new int[]{1, 1, 1, 1, 2, 2, 2, 3});
         System.out.println(k);
     }
 }
