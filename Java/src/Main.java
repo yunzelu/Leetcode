@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        MajorityElement test = new MajorityElement();
-        int k = test.majorityElementOthers(new int[]{1, 1, 1, 1, 2, 2, 2, 3});
+        BestTimeToBuyAndSellStock test = new BestTimeToBuyAndSellStock();
+        int k = test.maxProfit(new int[]{7,1,5,3,6,4});
         System.out.println(k);
     }
 }
